@@ -7,13 +7,13 @@ The *stride* can be negative to return items in reverse.
 ```python
 s = 'bicycle'
 
-# Get characters from index 0 to the last index, skip 2 steps at a time.
+# For every 3 steps, get characters from index 0 to the last index.
 skip_2_steps = s[::3] # 'bye'
 
 # Get all characters (reversed) from index 0 to the last index.
 reversed_str = s[::-1] # 'elcycib'
 
-# Get all characters (reversed) from index 0 to the last index, skip 1 step at a time. 
+# For every 2 steps, get all characters (reversed) from index 0 to the last index. 
 skip_1_step_reversed_str = s[::-2] # 'eccb'
 ```
 
